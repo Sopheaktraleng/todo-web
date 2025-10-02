@@ -1,0 +1,17 @@
+/* Make sure the viewport is fully covered */
+html, body {
+    min-height: 100%;
+    margin: 0;
+}
+
+/* Light theme gradient */
+body {
+    background: linear-gradient(180deg, #f5f7ff, #fdf2f8);
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: linear-gradient(180deg, #0b0b10, #141624);
+    }
+}
